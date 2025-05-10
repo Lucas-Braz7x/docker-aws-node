@@ -24,3 +24,7 @@ Este projeto demonstra a construção e implantação de uma aplicação Node.js
 # Objetivo
 
 Demonstrar na prática o uso integrado de tecnologias como Docker, Node.js, PostgreSQL e AWS para desenvolvimento, conteinerização e implantação de uma aplicação completa baseada em microsserviços.
+
+# Como rodar
+
+`docker compose up`
