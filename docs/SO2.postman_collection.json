@@ -1,0 +1,256 @@
+{
+	"info": {
+		"_postman_id": "691058e0-bdfd-4427-9634-b2bdbbb37310",
+		"name": "SO2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18642839"
+	},
+	"item": [
+		{
+			"name": "users",
+			"item": [
+				{
+					"name": "users",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://52.91.34.177/users",
+							"protocol": "http",
+							"host": [
+								"52",
+								"91",
+								"34",
+								"177"
+							],
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "users",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"teste\",\r\n    \"email\": \"teste1@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://52.91.34.177/users",
+							"protocol": "http",
+							"host": [
+								"52",
+								"91",
+								"34",
+								"177"
+							],
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "users",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Julio\",\r\n    \"email\": \"julio@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://52.91.34.177/users/4",
+							"protocol": "http",
+							"host": [
+								"52",
+								"91",
+								"34",
+								"177"
+							],
+							"path": [
+								"users",
+								"4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "users",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://52.91.34.177/users/6",
+							"protocol": "http",
+							"host": [
+								"52",
+								"91",
+								"34",
+								"177"
+							],
+							"path": [
+								"users",
+								"6"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "status",
+			"item": [
+				{
+					"name": "status",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://52.91.34.177/status",
+							"protocol": "http",
+							"host": [
+								"52",
+								"91",
+								"34",
+								"177"
+							],
+							"path": [
+								"status"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "api",
+			"item": [
+				{
+					"name": "player",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://52.91.34.177/api/player/Durant",
+							"protocol": "http",
+							"host": [
+								"52",
+								"91",
+								"34",
+								"177"
+							],
+							"path": [
+								"api",
+								"player",
+								"Durant"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "query",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://52.91.34.177/api/query/curry/2016",
+							"protocol": "http",
+							"host": [
+								"52",
+								"91",
+								"34",
+								"177"
+							],
+							"path": [
+								"api",
+								"query",
+								"curry",
+								"2016"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "season",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://52.91.34.177/api/season/2025",
+							"protocol": "http",
+							"host": [
+								"52",
+								"91",
+								"34",
+								"177"
+							],
+							"path": [
+								"api",
+								"season",
+								"2025"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "query",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://52.91.34.177/api/query/curry/2016",
+							"protocol": "http",
+							"host": [
+								"52",
+								"91",
+								"34",
+								"177"
+							],
+							"path": [
+								"api",
+								"query",
+								"curry",
+								"2016"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
